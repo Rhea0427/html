@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+form tag example
+</title>
+</head>
+<body background="https://www.imgbase.info/images/safe-wallpapers/cartoons/adventure_time/52680_adventure_time.jpg">
+<form>
+<table>
+<tr>
+<td><b>First Name:</b></td>
+<td><input type="text" maxlength="10" placeholder="Enter First Name..." autocomplete="false"></td>
+</tr>
+<tr>
+<td><b>Last Name:</b></td>
+<td><input type="text" required="true" title="Please do not keep it empty" placeholder="Enter Last Name..."  ></td>
+</tr>
+<tr>
+<td><b>Screen Name:</b></td>
+<td><input type="text" required="true" title="Please do not keep it empty" placeholder="Enter Screen Name..."  ></td>
+
+</tr>
+<tr>
+<td><b>Date of birth:</b></td>
+<td><input type="Date"></td>
+</tr>
+<tr>
+<td><b>Gender:</b></td>
+<td><input type="radio" name="gen">Male</td>
+<td><input type="radio" name="gen">Female</td>
+</tr>
+<tr>
+<td><b>Country:</b></td>
+<td>
+<select>
+<option value="USA">USA</option>
+<option value="INDIA">INDIA</option>
+<option value="OMAN">OMAN</option>
+<option value="IRAN">IRAN</option>
+</select>
+
+</td>
+</tr>
+<tr>
+<td><b>Mode of payment:</b></td>
+<td><input list="payment" ></td>
+<td><datalist id="payment">
+<option value="netbanking">netbanking</option>
+<option value="paytm">paytm</option>
+<option value="paypal">paypal</option>
+</datalist>
+</td>
+</tr>
+<tr>
+<td><b>Contact no:</b></td>
+<td><input type="tel" maxlength="10"></td>
+</tr>
+<tr>
+<td><b>E-mail:</b></td>
+<td><input type="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"autofocus multiple></td>
+</tr>
+<tr>
+<td><b>Password:</b></td>
+<td><input type="Password" pattern=".{6,}"></td>	
+</tr>
+<tr>
+<td><b>Confirm password:</b></td>
+<td><input type="Password" pattern=".{6,}"></td>
+</tr>
+<tr>
+<td>
+<input type="checkbox">I agree to the terms of use
+</td>
+</tr>
+<tr>
+<td><input type="Submit"></td>
+<td><input type="reset" value="Cancel"></td>
+<td><button value="Register">Register</button></td>
+<td><button value="login">login</button></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
