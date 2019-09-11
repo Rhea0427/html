@@ -1,0 +1,15 @@
+.banner{background-image: url("120.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%;
+		text-shadow: 3px 3px pink;
+		text-align: center;
+		padding-bottom: 50px;
+		padding-top: 50px;
+		}
+.banner img.opacity {opacity:0.4;}
+
+.href a{background-color: green;text-decoration: none;color: maroon;}}
+
+.href      li {float: left; text-decoration: none; padding: 5px; list-style-type: none}
+
