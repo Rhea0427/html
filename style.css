@@ -2,27 +2,17 @@
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100%;
-		img.opacity: 0.4;
+		img-opacity: 0.4;
 		padding-bottom: 50px;
 		padding-top: 50px;
 		}
-.banner	h1{text-shadow: 3px 3px pink;
-		text-align: center;}
+	h1{text-shadow: 3px 3px pink;
+		text-align: center;color: darkblue;}
  
-.href {text-align: center;}
-.href a:link{background-color: pink;text-decoration: none;color: maroon;}
-.href a:visited{background-color: yellow;text-decoration:none;color:black;}
-.href a:hover{background-color:green;text-decoration:underline;color: red;}
-ul#horizontal-list {
-	min-width: 696px;
-
-	padding-top: 20px;
-	}
-	ul#horizontal-list li {
-		display: inline;
-	}
-
+ 	a{color:green; text-decoration: none;}
+	a:hover{text-decoration: underline;;background-color: pink;}
 .para p{color: brown; margin-left: 50px}
 
 .cpy{
 	text-align: center;}
+
