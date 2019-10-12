@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<script type="text/javascript">
+		
+		function checklogin()
+		{
+			var username=prompt("Username:");
+			var password=prompt("Password:");
+			if(username=="" && password=="")
+			{
+				alert("Enter Username and password!");
+			}
+			else if(username=="")
+			{
+				alert("Enter Username!");
+			}
+			else if(password=="")
+			{
+				alert("Enter Password!");
+			}
+			else if(username=="rhea" && password=="rheavk")
+			{
+				alert("Login successfull!");
+			}
+			else
+			{
+				alert("Incorrect username or password");
+			}
+		
+		}
+	</script>
+</head>
+<body>
+	<button onclick="checklogin()">Login</button>
+</body>
+</html>
