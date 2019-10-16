@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cube</title>
+	<script type="text/javascript">
+		function check()
+		{
+			var a=document.getElementById("n1").value;
+			if(a=="")
+			{
+				document.getElementById("n2").style.color="red";
+				document.getElementById("n2").innerHTML="! Please fill the data";
+
+			}
+			else
+			{
+				var result=a*a*a;
+				document.getElementById("n2").innerHTML="cube is"+result;
+			}
+		}
+	</script>
+</head>
+<body>
+	<form>
+		Number:<input type="text" id="n1">
+		<div id="n2"></div>
+		<input type="button" value="CUBE" onclick="check()">
+	</form>
+</body>
+</html>
